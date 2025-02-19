@@ -1,0 +1,32 @@
+ .bloco1{
+    background-color: #ebffc9;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20pt;
+    padding: 10px;
+}
+img{
+    border: 6px groove #9cd739;
+}
+iframe{
+    border: 6px groove #9cd739;
+}
+h1{
+    font-size: 64pt;
+    color:#9cd739;
+    font-family: 'Times New Roman', Times, serif;
+    border: 4px groove #9cd739;
+}
+h2,h3{
+    color: #9cd739;
+    font-family: 'Times New Roman', Times, serif;
+}
+#lista{
+    text-align: left;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:darkmagenta;
+}

@@ -1,0 +1,23 @@
+#bloco1{
+    background-color: #ebffc9;
+    font-size: 20pt;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #9cd739;
+}
+h1{
+    font-size: 64pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+}
+a:link{
+    color: darkblue;
+}
+a:visited{
+    color: darkmagenta
+}

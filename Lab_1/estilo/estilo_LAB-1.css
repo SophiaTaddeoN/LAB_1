@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabesalho {
+    background-color: #9cd739;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    margin: 5px 10px;
+}

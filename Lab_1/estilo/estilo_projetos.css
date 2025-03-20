@@ -1,23 +1,31 @@
-.bloco1{
+body {
     background-color: #ebffc9;
+}
+
+.bloco1 {
     font-family: 'Times New Roman', Times, serif;
     color: darkgreen;
     font-size: 20pt;
     padding: 10px;
 }
-h1{
+
+#titulo {
     font-size: 64pt;
     font-family: 'Times New Roman', Times, serif;
     color: #9cd739;
-    border: 4px groove #9cd739
+    border: 4px groove #9cd739;
+    padding: 0 20px;
 }
-table,td{
+
+td,th {
     border: 2px groove #9cd739;
     background-color: #c9ff6d;
 }
-a:link{
+
+a:link {
     color: darkblue;
 }
-a:visited{
+
+a:visited {
     color: darkmagenta
 }

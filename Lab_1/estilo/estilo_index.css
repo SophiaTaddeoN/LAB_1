@@ -1,12 +1,16 @@
- .bloco1{
+body {
     background-color: #ebffc9;
+}
+
+.bloco1{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font-size: 20pt;
     padding: 10px;
 }
-img{
-    border: 6px groove #9cd739;
+
+.img_inicio {
+    border: 5px 5px 10px solid #9cd739;  
 }
 iframe{
     border: 6px groove #9cd739;

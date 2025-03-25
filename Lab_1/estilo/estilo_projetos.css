@@ -14,7 +14,7 @@ h1{
     color: #9cd739;
     border: 4px groove #9cd739
 }
-table,td{
+table,td,th{
     border: 2px groove #9cd739;
     background-color: #c9ff6d;
 }

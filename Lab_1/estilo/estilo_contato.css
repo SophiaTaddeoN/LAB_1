@@ -1,3 +1,6 @@
+body{
+    background-color: #ebffc9;
+}
 #bloco1{
     background-color: #ebffc9;
     font-size: 20pt;
@@ -16,8 +19,8 @@ p{
     color: black;
 }
 a:link{
-    color: darkblue;
+    color: green;
 }
 a:visited{
-    color: darkmagenta
+    color: darkslategray
 }

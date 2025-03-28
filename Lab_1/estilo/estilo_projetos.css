@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #ebffc9;
 }
 
@@ -23,9 +23,9 @@ td,th {
 }
 
 a:link {
-    color: darkblue;
+    color: green;
 }
 
-a:visited {
-    color: darkmagenta
+a:visited{
+    color: darkslategrey
 }

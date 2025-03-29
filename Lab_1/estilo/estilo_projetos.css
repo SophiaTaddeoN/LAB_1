@@ -18,6 +18,7 @@ body{
 }
 
 td,th {
+    padding: 5px;
     border: 2px groove #9cd739;
     background-color: #c9ff6d;
 }

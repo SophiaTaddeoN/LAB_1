@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slateblue;
+    
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#num{
+    width: 350px;
+    height: 50px;
+    font-family: Gidole;
+    font-size: 20pt;
+    margin: 20px 0 0 0;
+}
+
+#botao {
+    font-family: Gidole;
+    font-size: 20pt;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin: 5px 0 0 0; 
+}
+
+#resp {
+    font-family: Gidole;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}

@@ -11,14 +11,20 @@
 
     </head>
     <body>
-        <div class="centro">
-            <input type="text" id="num">
-            
+        <div class="corpo">
+            <h1 class="centro" id="titulo">Guess Game!</h1>
+            <div>
+                <input type="text" id="num">
+            </div>
+            <div>
+                <input type="button" value="Clique Aqui" id="botao" onclick="guess()">
+            </div>
+            <p id="resp"></p>
+            <div class="corpo" id="tenta">
+                <h3>Número de Tentativas:</h3>
+                <p id="num_tenta"></p>
+            </div>
         </div>
-        <div class="centro">
-            <input type="button" value="Clique Aqui" id="botao" onclick="guess()">
-        </div>
-        <p id="resp"></p>
 
         <script src="script/script_guess.js" type="text/javascript"></script>
     </body>

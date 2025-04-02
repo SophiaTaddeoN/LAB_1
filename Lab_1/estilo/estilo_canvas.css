@@ -8,12 +8,30 @@ body {
     background-color: skyblue;
 }
 
-#tela {
+.tela {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
 }
 
-#canvas {
+#canvas1 {
     border: 1px solid black;
+    background-color: white;
+}
+
+#canvas2 {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#corpo {
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 64pt;
+    color: white;
+    font-family: Monoton;
+    font-weight: 400;
 }

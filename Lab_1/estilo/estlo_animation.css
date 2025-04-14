@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#canva {
+    background-color: crimson;
+}
+
+#titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60pt;
+    color: darkred;
+}

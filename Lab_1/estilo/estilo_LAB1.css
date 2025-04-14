@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebffc9;
+}
+
+#cabesalho_nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    width: 100%;
+    height: 120px;
+    border-bottom: 10px groove #9cd739;
+}
+
+#titulo {
+    font-family: "Oldenburg";
+    font-weight: 400;
+    color: #cdeb9c;
+    font-size: 60pt;
+}
+
+.posicao {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.img {
+    border: 5px groove #9cd739;
+}
+
+.img_red {
+    border-radius: 180px;
+    height: 200px;
+}
+
+#data {
+    font-family: "Oldenburg";
+    font-weight: 400;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+}
+
+#foto_data {
+    height: 350px;
+    width: 360px;
+}
+
+#imagens_desenho {
+    height: 280px;
+    padding: 15px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#paragrafo {
+    padding: 30px 30px 0 0;
+}
+
+.texto {
+    font-family: "Oldenburg";
+    font-weight: 400;
+    color: black;
+    font-size: 20pt;
+}
+
+#bandas{
+    border: 2px solid #9cd739;
+    padding: 35px;
+}
+
+#paragrafo2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.subtitulo {
+    font-family: "Oldenburg";
+    font-weight: 400;
+    color: #9cd739;
+    font-size: 25pt;
+}
+
+#Links {
+    border: 2px solid #9cd739;
+    padding: 35px;
+}
+
+#link1 {
+    margin: 0 50px 0 0;
+}
+
+#insta, #reddit {
+    padding: 0 0 30px 0;
+}
+
+a:link, a:visited {
+    color: darkgreen;
+    font-family: "Oldenburg";
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.iframe {
+    border: 6px groove #9cd739;
+
+}
+
+#paragrafo3 {
+    width: 510px;
+}
+
+#paragrafo4 {
+    margin: 0 30px 0 0;
+}
+
+.margin {
+    margin: 0 0 30px 0;
+}

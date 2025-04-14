@@ -1,66 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>LAB</title>
         <meta charset="UTF-8">
-        <title>LAB_1</title>
-        <link href="estilo/estilo_index.css" rel="stylesheet">
+        <link href="estilo/estilo_LAB1.css"rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
+
     </head>
-
     <body>
-        <div class="bloco1">
-          <img src="imagens/Minha_Foto.jpg"alt="foto de Katarina Krich" height="440"width="421">
-
-          <h1>Katarina Krich</h1>
-          <p>Olá!Meu nome é Katarina Krich, eu tenho 17 anos e atualmente estou cursando ciência da computação na FEI. Em meu tempo livre eu gosto de desenhar, abaixo está alguns de meus desenhos:</p>
-          <img class="img_inicio" src="imagens/Deni.jpg"alt="uma foto de uma desenho do professor de literatura,Denilson"height="260"width="260">
-          <img class="img_inicio" src="imagens/Sabri.jpg"alt="uma foto de uma desenho do professor de química,Sabrina"height="260"width="260">
-          <img class="img_inicio" src="imagens/Familia.jpg"alt="uma foto de uma desenho de uma familia"height="260"width="320">
-          <img class="img_inicio" src="imagens/Lili.jpg"alt="uma foto de uma criança"height="260"width="260">
-
-          <h2>Minhas Bandas Favoritas:</h2>
-          <ul id="lista">
-             <li>Iron Maiden</li>
-             <li>Arctic Monkeys</li>
-             <li>Legião Urbana</li>
-          </ul>
-
-          <h3>Meu Instagram:</h3>
-          <a href="https://www.instagram.com/desenhos.krich/">Instagram</a>
-
-          <h3>Meu Contato:</h3>
-          <a href="contato.html">Contato</a>
-
-          <h3>Meu Reddit:</h3>
-          <a href="https://www.reddit.com/user/First-Dog9660/">Reddit</a>
-
-          <h3>Meus projetos:</h3>
-          <a href="projetos.html">Projetos</a>
-
-          <h2>Local em que Estudo:</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648694544453!2d-46.58197282570654!3d-23.724236267594232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1739336058535!5m2!1spt-BR!2sbr" 
-          width="500" 
-          height="350" 
-          style="border:0;" 
-          allowfullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-          </iframe>">
-
-          <h2>Trailers de Filmes que Recomendo:</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_NzqP0jmk3o?si=mGJO5V4v5hJAbtOW" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-          </iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/cf0rRYvDuys?si=pM4W9kn63LtsYWyb" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-          </iframe>
+        <div id="cabesalho_nome">
+            <h1 id="titulo">Katarina Krich</h1>
         </div>
+        <div class="meio">
+            <div class="posicao padding" id="foto_data">
+                <img class="img" src="imagens/Minha_Foto.jpg" height="100%" width="auto">
+                <p id="data">Data de Nascimento: 26/05/2007</p>
+            </div>
+            <div id="paragrafo">
+                <p class="texto">Olá!Meu nome é Katarina Krich, eu tenho 17 anos e atualmente estou cursando ciência da computação na FEI. Em meu tempo livre eu gosto de desenhar, abaixo está alguns de meus desenhos:</p>
+                <div id="imagens_desenho">
+                    <img class="img img_red" src="imagens/Deni.jpg" height="100%" width="auto">
+                    <img class="img img_red" src="imagens/Familia.jpg" height="100%" width="auto">
+                    <img class="img img_red" src="imagens/Lili.jpg" height="100%" width="auto">
+                    <img class="img img_red" src="imagens/Sabri.jpg" height="100%" width="auto">
+                </div>
+            </div>
+        </div>
+        <div class="meio" id="paragrafo2">
+            <div id="bandas">
+                <h3 class="subtitulo">Minhas Bandas Favoritas</h3>
+                <ul class="posicao">
+                    <li class="texto">Iron Maiden</li>
+                    <li class="texto">Arctic Monkeys</li>
+                    <li class="texto">Legião Urbana</li>
+                </ul>
+            </div>
+            <div id="Links" class="meio">
+                <div class="posicao" id="link1">
+                    <div id="insta">
+                        <h3 class="subtitulo">Meu Instagram:</h3>
+                        <a href="https://www.instagram.com/desenhos.krich/">Instagram</a>
+                    </div>
+                    <div id="Contato">
+                        <h3 class="subtitulo">Meu Contato:</h3>
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </div>
+                <div class="posicao">
+                    <div id="reddit">
+                        <h3 class="subtitulo">Meu Reddit:</h3>
+                        <a href="https://www.reddit.com/user/First-Dog9660/">Reddit</a>
+                    </div>
+                    <div id="projetos">
+                        <h3 class="subtitulo">Meus projetos:</h3>
+                        <a href="projetos.html">Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="subtitulo meio padding">Local em que Estudo:</h2>
+        <div class="meio">
+            <div class="iframe" id="paragrafo3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.648694544453!2d-46.58197282570654!3d-23.724236267594232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4158ef9c7c05%3A0x776b798985695f52!2sFEI%20-%20Campus%20S%C3%A3o%20Bernardo%20do%20Campo!5e0!3m2!1spt-BR!2sbr!4v1739336058535!5m2!1spt-BR!2sbr" 
+                width="500" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <h2 class="subtitulo meio padding">Trailers de Filmes que Recomendo:</h2>
+        <div class="meio margin">
+            <div class="iframe" id="paragrafo4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_NzqP0jmk3o?si=mGJO5V4v5hJAbtOW" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div class="iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cf0rRYvDuys?si=pM4W9kn63LtsYWyb" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+                </iframe>
+            </div>   
+        </div>
+        <script src="scripts/script.js" type="text/javascript"></script>
     </body>
 </html>

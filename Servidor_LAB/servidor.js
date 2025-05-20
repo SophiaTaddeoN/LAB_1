@@ -13,7 +13,7 @@ app.set('views', './views');
 var server = http.createServer(app);
 server.listen(80);
 
-console.log('Servidor rodando ...'.blue);
+console.log('Ser'.blue +'vi'.green +'dor'.yellow +' ro'.blue+'dan'.green+'do ...'.yellow);
 
 app.get("/", (req, res) => {
     res.redirect("projetos.html");

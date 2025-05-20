@@ -5,16 +5,18 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="estilo/estilo_Login_Cadastro"
+      href="estilo/estilo_Login_Cadastro.css"
     />
   </head>
   <body>
-    <div class="centro" id="borda">
-      <div class="block"><p>Login: <%= login %></p></div>
-      <div class="block"><p>Senha: <%= senha %></p></div>
-      <a href="usuarion.html">
-        <button>Voltar para o início</button>
-      </a>
+    <div class="centro coluna">
+      <div class="borda">
+        <p class="texto">Login: <%= login %></p>
+        <p class="texto">Senha: <%= senha %></p>
+        <a href="usuarion.html">
+          <button>Voltar para o início</button>
+        </a>
+      </div>
     </div>
   </body>
 </html>
